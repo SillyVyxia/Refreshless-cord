@@ -67,14 +67,14 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 Paste the following in `Settings > Themes`:
 
-- `https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/main/src/main.css`
+- `https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/src/main.css`
 
 ## Other
 
 1. Paste the following at **the top** of the CSS file/window:
 
 ```css
-@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/main/src/main.css");
+@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/src/main.css");
 ```
 ----
 
