@@ -58,7 +58,7 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 #### Local method
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/OldCord.theme.css) (right-click > "Save As")
 2. Move the file to the Vencord theme folder:
 
 - `Settings > Themes > Open theme folder`
