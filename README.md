@@ -1,8 +1,6 @@
-# OldCord
+# Refreshless-Cord
 
-A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back without removing features
-
-###### Completely removes profile effects, profile colors, avatar decos and banners (revertable, see Addons)
+A theme for Discord that brings the pre-2025 refresh UI back without removing features
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
@@ -69,14 +67,14 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 Paste the following in `Settings > Themes`:
 
-- `https://milbits.github.io/oldcord/src/main.css`
+- `https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/main/src/main.css`
 
 ## Other
 
 1. Paste the following at **the top** of the CSS file/window:
 
 ```css
-@import url("https://milbits.github.io/oldcord/src/main.css");
+@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/main/src/main.css");
 ```
 ----
 
