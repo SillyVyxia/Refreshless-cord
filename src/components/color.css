@@ -334,10 +334,6 @@
 
 .reaction_f8896c,
 .reaction__23977 {
-	border-radius: 0.25rem;
-	border: none;
-	margin-right: 0.125rem;
-	margin-bottom: 0.125rem;
 	transition: background-color 0.1s ease;
 	background: var(--background-modifier-accent) !important;
 	&:hover {
@@ -365,10 +361,6 @@
 	background-color: var(--brand-experiment-30a) !important;
 }
 
-.reaction__23977 .reactionInner__23977,
-.reaction_f8896c.reactionInner_f8896c {
-	padding: 0 0.375rem;
-}
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c,
 .reaction__23977.reactionMe__23977 .reactionCount__23977 {
 	color: var(--brand-experiment) !important;
