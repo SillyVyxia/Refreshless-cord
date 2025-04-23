@@ -22,8 +22,8 @@ body {
     --brand-500: unset;
 }
 .theme-dark .closeButton_c2b141 {
-    color: var(--background-accent) !important;
+    color: var(--interactive-normal) !important;
 }
 .keybind_c2b141 {
-    color: var(--background-accent) !important;
+    color: var(--interactive-normal) !important;
 }
