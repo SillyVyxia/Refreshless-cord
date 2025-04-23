@@ -306,37 +306,6 @@
 	background-color: var(--blurple) !important;
 }
 
-/*! Reactions*/
-/*selectors for forums and normal messages*/
-@keyframes reactionAnim {
-	0% {
-		transform: scale(0);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-.theme-dark .reactionBtn__23977 {
-	border-radius: 2px;
-	margin-bottom: 1px;
-	background: none;
-	border: none;
-}
-.reactionBtn__23977.forceShowLook_ec6b19:hover {
-	background-color: unset;
-}
-
-.reactionMe_f8896c:hover,
-.reactionMe__23977:hover {
-	background-color: var(--brand-experiment-40a) !important;
-}
-
-.reactionCount__23977,
-.reactionCount_f8896c {
-	font-weight: 500;
-	color: var(--text-muted);
-}
-
 /** Select Menus*/
 .select__3f413,
 .copyInput_fffc15 {
