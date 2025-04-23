@@ -10,6 +10,11 @@
 /*@import url("https://vyxia.site/Refreshless-cord/src/components/oldEmojis.css");*/
 /*@import url("https://vyxia.site/Refreshless-cord/src/components/oldContext.css");*/
 /*@import url("https://vyxia.site/Refreshless-cord/src/components/showEffects.css");*/
+
+/*
+  remove the /* if you wanna enable any one of the things up there
+  only enable clientTheme.css if you use the vencord ClientTheme Plugin 
+*/
 :root {
 	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
 	--reaction-animation: 0;
