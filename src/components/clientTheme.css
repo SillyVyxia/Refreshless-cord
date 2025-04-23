@@ -18,6 +18,12 @@
 	}
 }
 body {
+    --blurple: var(--button-filled-brand-background);
+    --blurple-hover: var(--button-filled-brand-background-hover);
+    --blurple-active: var(--button-filled-brand-background-acrive);
+    --blurple-inverted: var(--button-filled-brand-inverted-background);
+    --blurple-inverted-hover: var(--button-filled-brand-inverted-background-hover);
+    --blurple-inverted-active: var(--button-filled-brand-inverted-background-active);
     --text-muted: unset;
     --brand-500: unset;
 }
