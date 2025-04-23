@@ -1369,20 +1369,6 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     }
 }
 
-/*forwarded message*/
-.container__122e4 .quote__122e4 {
-    display: none;
-}
-
-.container__122e4 .content__122e4 {
-    padding: 4px 8px;
-    border-radius: 3px;
-    border: solid 1px var(--background-modifier-accent);
-    max-width: 500px;
-    overflow: hidden;
-    flex-grow: 0;
-}
-
 /* fix emoji picker sizing */
 .emojiItem_fc7141 {
     width: 40px !important;
