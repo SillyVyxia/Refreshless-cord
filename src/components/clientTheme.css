@@ -7,6 +7,7 @@
     --background-accent: unset;
     --background-floating: var(--background-secondary-alt);
     --button-secondary-background: var(--background-secondary);
+    --background-mod-subtle: var(--background-accent);
 }
 .visual-refresh {
     .section__00943 {
