@@ -1383,13 +1383,6 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     flex-grow: 0;
 }
 
-.container__122e4 .headerText__122e4 {
-    font-size: 12px;
-    font-weight: bold;
-    font-style: normal;
-    text-transform: uppercase;
-}
-
 /* fix emoji picker sizing */
 .emojiItem_fc7141 {
     width: 40px !important;
