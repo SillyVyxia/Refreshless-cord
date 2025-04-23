@@ -5,16 +5,16 @@
   * @source https://github.com/milbits/oldcord
   * @description Restores discord's pre-2025 refresh UI
 */
-@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/src/main.css");
+@import url("https://vyxia.site/Refreshless-cord/src/main.css");
 
 
 /*
 Addons
 remove a "/*" below to enable one
 */
-/*@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/src/components/oldEmojis.css");*/
-/*@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/src/components/oldContext.css");*/
-/*@import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/refs/heads/main/src/components/showEffects.css");*/
+/*@import url("https://vyxia.site/Refreshless-cord/src/components/oldEmojis.css");*/
+/*@import url("https://vyxia.site/Refreshless-cord/src/components/oldContext.css");*/
+/*@import url("https://vyxia.site/Refreshless-cord/src/components/showEffects.css");*/
 
 /* Options */
 
