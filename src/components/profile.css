@@ -413,7 +413,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /* do the same in user lists */
-:is(.subText__20a53, .subText__91a9d, .subtext__0a06e, .subtext__67a11, .default__0263c) > :is(.textXs__8ac07, .textSm__8ac07).container__8ac07 > .icon__8ac07 path {
+:is(.subText__20a53, .subText__91a9d, .subtext__0a06e, .subtext__67a11, .default__0263c) > :is(.textXs_c9d15c, .textSm_c9d15c).container_c9d15c > .icon_c9d15c path {
 	fill: var(--channels-default);
 }
 
@@ -610,8 +610,8 @@ html.theme-dark .badgeContainer__635ed path {
 	min-height: 105px !important;
 }
 
-.focusLock__49fc1 .root__49fc1 {
-	border-radius: 8px !important; 
+.focusLock__49fc1 .root__49fc1:not(.modal_e59759) {
+	border-radius: 8px !important;
 }
 .inner_c0bea0.fullSize_c0bea0 {
 	border-radius: 0px;
@@ -850,6 +850,9 @@ html.theme-dark .badgeContainer__635ed path {
 .footer__5be3e {
 	margin-top: 75px;
 }
+.footer__5be3e:is(:empty) {
+		display: none;
+	}
 
 /*remove badges*/
 .inner_c0bea0.biteSize_c0bea0 .container__8061a {
@@ -996,6 +999,9 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 .roleRemoveButton_dfa8b6 {
 	position: static;
 	cursor: unset;
+	&:has(.linkIcon_ebf183) .roleRemoveIcon_dfa8b6 {
+		left: 5px;	
+	}
 }
 .roleCircle__4f569 {
 	margin: 0 4px 0px 1px !important;
