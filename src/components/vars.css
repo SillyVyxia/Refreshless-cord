@@ -118,12 +118,12 @@
 }
 body {
 	--text-muted: #72767d;
-	--blurple: var(--brand-experiment);
-	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
-	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
-	--blurple-inverted: #fff;
-	--blurple-inverted-hover: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
-	--blurple-inverted-active: hsl(229, calc(var(--saturation-factor, 1) * 60%), 93%);
+    --blurple: var(--button-filled-brand-background);
+    --blurple-hover: var(--button-filled-brand-background-hover);
+    --blurple-active: var(--button-filled-brand-background-acrive);
+    --blurple-inverted: var(--button-filled-brand-inverted-background);
+    --blurple-inverted-hover: var(--button-filled-brand-inverted-background-hover);
+    --blurple-inverted-active: var(--button-filled-brand-inverted-background-active);
 	--text-brand: var(--blurple);
 	--bg-brand: var(--blurple);
 	--brand-260: var(--brand-experiment-260);
