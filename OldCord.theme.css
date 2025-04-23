@@ -1,23 +1,15 @@
 /**
   * @name Refreshless-Cord
   * @version 1.0
-  * @author @milbit
+  * @author @milbit, Forked By @sillyvyxia
   * @source https://github.com/milbits/oldcord
   * @description Restores discord's pre-2025 refresh UI
 */
 @import url("https://vyxia.site/Refreshless-cord/src/main.css");
-
-
-/*
-Addons
-remove a "/*" below to enable one
-*/
+/*@import url("https://vyxia.site/Refreshless-cord/src/components/clientTheme.css");*/
 /*@import url("https://vyxia.site/Refreshless-cord/src/components/oldEmojis.css");*/
 /*@import url("https://vyxia.site/Refreshless-cord/src/components/oldContext.css");*/
 /*@import url("https://vyxia.site/Refreshless-cord/src/components/showEffects.css");*/
-
-/* Options */
-
 :root {
 	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
 	--reaction-animation: 0;

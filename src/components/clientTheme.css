@@ -1,0 +1,22 @@
+/* for if you use the vencord ClientTheme plugin */
+.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
+    --background-primary: unset;
+    --background-secondary: unset;
+    --background-secondary-alt: unset;
+    --background-tertiary: unset;
+    --background-accent: unset;
+    --background-floating: var(--background-secondary-alt);
+    --button-secondary-background: var(--background-secondary);
+}
+.visual-refresh {
+    .section__00943 {
+        background: var(--background-primary);
+    }
+    .outer_bf1984.interactive_bf1984:hover {
+		background-color: var(--background-secondary-alt);
+	}
+}
+body {
+    --text-muted: unset;
+    --brand-500: unset;
+}
