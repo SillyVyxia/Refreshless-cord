@@ -515,9 +515,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 }
 .nowPlayingColumn__133bf .header__7d20c {
 	color: var(--header-secondary);
-	text-transform: uppercase;
-	font-size: 12px;
-	margin: 0;
+	font-size: 20px;
 	font-weight: 600;
 }
 .wrapper__00943 {
