@@ -1759,3 +1759,7 @@ html .bar_c38106 {
 .spriteContainer__04eed {
 	--custom-emoji-sprite-size: 24px !important;
 }
+
+.newMessagesBar__0f481 {
+	border: 1px solid var(--border-subtle) !important;
+}
