@@ -77,11 +77,6 @@ code {
     margin-bottom: 1px;
 }
 
-.reactionLarge.emoji {
-    width: 1rem;
-    height: 1rem;
-}
-
 .reactionDefault_cc2dff {
     border-radius: 2px;
     margin-bottom: 1px;
@@ -1280,18 +1275,6 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
         margin-right: 5px;
         margin-bottom: 5px;
     }
-}
-
-/* fix emoji picker sizing */
-.emojiItem_fc7141 {
-    width: 40px !important;
-    height: 40px !important;
-    padding: 0;
-    margin-left: 4px;
-}
-
-.emojiItem_fc7141 > :is(.image__1859b, .emojiSpriteImage_d982c2) {
-    transform: scale(0.8);
 }
 
 .emojiListRow_fc7141 {
