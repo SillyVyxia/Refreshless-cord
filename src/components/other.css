@@ -302,7 +302,6 @@ code {
 /* Replace "dont scan" text with how it was before. only for german and english*/
 :is([lang="DE"], [lang^="en"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
     & :is(.text-md\/medium_cf4812, .text-sm\/normal_cf4812) {
-        font-size: 0;
         line-height: unset;
     }
 
