@@ -1,11 +1,11 @@
-/*make cosmetics show again*/
+/*make cosmetics show again
 .avatarDecoration__44b0c,.avatarDecoration_c19a55,.profileEffects__01370,.mask__68edb,.nameplated__91a9d{
     display: unset !important;
 }
 .animatorTop_faf9c0 .mask__68edb{
     display: none !important
 }
-/*adjust profile effect opacity*/
+/*adjust profile effect opacity
 .profileEffects__01370{
     opacity: 0.2
 }
@@ -13,7 +13,7 @@
     background: #00000085 !important
 }
 
-/*move that weird circle to the middle*/
+/*move that weird circle to the middle
 .mask__68edb mask circle{
     transform: translateX(69.5px);
 }
@@ -23,21 +23,21 @@
 .user-profile-popout + header .mask__68edb mask circle{
     display: none !important
 }
-/*fix some overlaying stuff*/
+/*fix some overlaying stuff
 .header__5be3e{
     z-index: 2
 }
-/*make banners not so zoomed-in*/
+/*make banners not so zoomed-in
 .userPopoutOuter_c69a7b .banner__68edb{
     max-width: 250px;
 }
 
-/*fix for reaction stuff*/
+/*fix for reaction stuff
 .avatar__75742:has(.wrapper_f7ecac){
     position: absolute !important;
     top: 0 !important
 }
-/*move usernames etc. a bit down*/
+/*move usernames etc. a bit down
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
     padding-top: 50px;
 }
@@ -48,7 +48,7 @@
     top: 157px !important;
 }
 
-/*add colors back (but without that annoying border ew)*/
+/*add colors back (but without that annoying border ew)
 .custom-profile-theme .user-profile-popout .inner_c0bea0{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
@@ -63,7 +63,7 @@
 }
 
 
-/* banners behind headers */
+/* banners behind headers 
 .user-profile-modal .inner_c0bea0 .mask__68edb {
     position: absolute;
     z-index: 0;
@@ -82,7 +82,7 @@
     }
 }
 
-/* tinted text & profile */
+/* tinted text & profile 
 .inner_c0bea0:is(.user-profile-popout, .user-profile-modal)
 .outer_c0bea0.user-profile-modal,
 .custom-profile-theme {
@@ -90,8 +90,9 @@
     --theme-text-color-amount: 25% !important;
 }
 
-/* apply ONLY if they have an avatar deco*/
+/* apply ONLY if they have an avatar deco
 div:has(.avatarDecoration__44b0c) .avatar__75742 {
     position: absolute !important;
     top: 30px !important;
 }
+*/
