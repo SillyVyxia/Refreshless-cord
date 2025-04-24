@@ -1493,23 +1493,23 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 
 /* "My Account" settings panel */
 .accountProfileCard__1fed1 {
+    .userInfo__1fed1 {
+        margin-bottom: 25px;
+        .button__201d5 {
+            top: 3px;
+        }
+    }
     .userInfo__1fed1 > div:nth-of-type(1) {
         width: 92px !important;
         height: 92px !important;
-        svg {
-            width: 100px;
-            height: 100px;
-        }
     }
     .userInfo__1fed1 > div:nth-of-type(2) {
         display: none;
     }
     .background__1fed1, .fieldList__1fed1 {
         background: var(--background-secondary);
-    }
-    .fieldList__1fed1 {
-        margin-left: 100px;
-        margin-top: -50px;
+        margin-top: unset;
+        margin-left: 20px;
     }
 }
 /* new experimental image viewer - this sucks, don't use it
