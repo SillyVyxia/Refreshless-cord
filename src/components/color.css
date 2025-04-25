@@ -232,23 +232,12 @@
 /** Mentions/Pings*/
 .wrapper_f61d60 {
 	font-weight: 500;
-	color: var(--brand-experiment-460);
-	background: var(--brand-experiment-10a);
 	padding: 0 2px;
 }
-.wrapper_f61d60:hover {
-	background: var(--brand-experiment);
-	color: var(--brand-experiment-100);
-}
-
 .interactive {
 	transition: background-color 50ms ease-out, color 50ms ease-out;
 	cursor: pointer;
 	text-decoration: none !important;
-}
-.mentioned__5126c .interactive {
-	/* make background transparent when mentioned*/
-	background: transparent;
 }
 .interactive:hover {
 	color: var(--white-500);
