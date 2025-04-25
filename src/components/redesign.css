@@ -1745,6 +1745,7 @@ html .bar_c38106 {
 .stack_dbd263[id="guild-list-unread-dms"] {
 	gap: 16px !important;
 	padding-bottom: 10px !important;
+    padding-top: 10px !important;
 }
 
 /* hides left sidebar when fullscreen mode */
