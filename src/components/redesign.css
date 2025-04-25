@@ -1761,3 +1761,7 @@ html .bar_c38106 {
 .newMessagesBar__0f481 {
 	border: 1px solid var(--border-subtle) !important;
 }
+/* this was lowk annoying me */
+.tutorialContainer__1f388 {
+    top: 10px;
+}
