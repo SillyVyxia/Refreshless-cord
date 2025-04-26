@@ -1673,7 +1673,6 @@ html .bar_c38106 {
 	}
 	.guildSeparator__252b6 {
 		height: 2px;
-		margin-bottom: 5px;
 	}
 	.wrapper__48112 {
 		.expandedFolderBackground__48112 {
@@ -1746,7 +1745,7 @@ html .bar_c38106 {
 .stack_dbd263[id="guild-list-unread-dms"] {
 	gap: 16px !important;
 	padding-bottom: 10px !important;
-    padding-top: 17px !important;
+    padding-top: 10px !important;
 }
 
 /* hides left sidebar when fullscreen mode */
@@ -1765,5 +1764,5 @@ html .bar_c38106 {
 }
 /* this was lowk annoying me */
 .tutorialContainer__1f388 {
-    top: 17px;
+    top: 10px;
 }
