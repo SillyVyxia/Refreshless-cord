@@ -911,7 +911,7 @@ html.platform-osx .title_c38106 {
 		content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 28 28'%3E%3Cpath d='M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z' stroke='' stroke-width='' fill='%2372767d' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
 		position: relative
 	}
-*/
+	*/
 	/* chat box */
 	.scrollerSpacer__36d07 {
 		height: 30px;
@@ -1192,6 +1192,7 @@ html.platform-osx .title_c38106 {
 		border: unset;
 		margin-bottom: 4px;
 		opacity: 0.9;
+		height: 20px;
 	}
 	.top__7aaec, .unreadTop__629e4 {
 		top: 0;
@@ -1537,6 +1538,13 @@ html.platform-osx .title_c38106 {
 			border-color: var(--background-secondary-alt);
 			border-radius: 5px;
 		}
+	}
+	/* the in voice thing */
+	.voiceChannelsIcon__7aaec {
+		display: none;
+	}
+	.voiceBar__7aaec .barText__7aaec {
+		margin: auto;
 	}
 }
 
