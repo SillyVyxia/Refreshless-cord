@@ -1673,6 +1673,7 @@ html .bar_c38106 {
 	}
 	.guildSeparator__252b6 {
 		height: 2px;
+		margin-top: -11px;
 	}
 	.wrapper__48112 {
 		.expandedFolderBackground__48112 {
@@ -1765,4 +1766,7 @@ html .bar_c38106 {
 /* this was lowk annoying me */
 .tutorialContainer__1f388 {
     top: 10px;
+}
+.stack_dbd263[aria-label="Servers"] {
+	margin-top: -10px;
 }
