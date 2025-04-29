@@ -941,16 +941,6 @@ code {
     display: none;
 }
 
-#app-mount .playIcon_a8e786 {
-    color: var(--interactive-normal);
-    width: 25px;
-    height: 25px;
-}
-
-#app-mount .playIcon_a8e786:hover {
-    color: var(--interactive-active);
-}
-
 /* notification settings*/
 .notificationSound__6d8e5 {
     transform: translateX(-24px);
