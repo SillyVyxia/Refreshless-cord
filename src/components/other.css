@@ -932,9 +932,6 @@ code {
 }
 
 /** Voice Messages*/
-.playButtonContainer_a8e786 {
-    background: none !important;
-}
 
 .playButtonContainer_a8e786:active {
     transform: translateY(1px) !important;
