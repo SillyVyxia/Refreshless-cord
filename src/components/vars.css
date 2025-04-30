@@ -120,7 +120,7 @@ body {
 	--text-muted: #72767d;
     --blurple: var(--button-filled-brand-background);
     --blurple-hover: var(--button-filled-brand-background-hover);
-    --blurple-active: var(--button-filled-brand-background-acrive);
+    --blurple-active: var(--button-filled-brand-background-active);
     --blurple-inverted: var(--button-filled-brand-inverted-background);
     --blurple-inverted-hover: var(--button-filled-brand-inverted-background-hover);
     --blurple-inverted-active: var(--button-filled-brand-inverted-background-active);
