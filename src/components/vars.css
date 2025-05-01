@@ -137,12 +137,12 @@ body {
 	--yellow-inverted-active: #feedd1;
 	--green-inverted: #f6fbf9;
 	--green-inverted-active: #d9f0e6;
-	--green: hsl(153, calc(var(--saturation-factor, 1) * 46%), 49%);
+	--green: hsl(146, 62%, 48%);
 	--status-green-600: var(--green);
 	--green-360: var(--green);
-	--green-hover: hsl(153, calc(var(--saturation-factor, 1) * 46%), 44%);
-	--green-active: hsl(152, calc(var(--saturation-factor, 1) * 46%), 39%);
-	--green-transparent: hsl(153, calc(var(--saturation-factor, 1) * 46%), 49%, 20%);
+	--green-hover: hsl(146, 62%, 48%);
+	--green-active: hsl(145, 62%, 38%);
+	--green-transparent: hsl(146, 62%, 48%, 20%);
 	--blue-345: hsl(199.524 calc(1*100%) 49.412% /1);
 	--info-positive-foreground: var(--green);
 	--text-positive: var(--green);
