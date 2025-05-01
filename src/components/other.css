@@ -1478,7 +1478,6 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     .background__1fed1, .fieldList__1fed1 {
         background: var(--background-secondary);
         margin-top: unset;
-        margin-left: 20px;
     }
 }
 /* new experimental image viewer - this sucks, don't use it
