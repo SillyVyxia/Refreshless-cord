@@ -1777,3 +1777,8 @@ html .bar_c38106 {
 .stack_dbd263[aria-label="Servers"] {
 	margin-top: -10px;
 }
+/* taller things */
+:where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0 {
+	padding-top: var(--space-10);
+    padding-bottom: var(--space-10);
+}
