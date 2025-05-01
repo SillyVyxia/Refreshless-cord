@@ -193,8 +193,8 @@ html.platform-osx .title_c38106 {
 	.wrapper_cc5dd2,
 	.childWrapper__6e9f8,
 	.icon__6e9f8 {
-		width: 50px;
-		height: 50px;
+		width: 50px !important;
+		height: 50px !important;
 	}
 	.wrapper_cc5dd2 > .svg_cc5dd2 {
 		inset: auto;
