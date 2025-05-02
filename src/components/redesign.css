@@ -889,6 +889,12 @@ html.platform-osx .title_c38106 {
 	:is([id="user-context-user-volume"], .column__7072d, .categorySubGroup__9f327) .slider_a562c8 .grabber_a562c8 {
 		margin-top: -7px;
 	}
+	:is([id="stream-context-user-volume"], .column__7072d, .categorySubGroup__9f327) .slider_a562c8 .grabber_a562c8 {
+		margin-top: -7px;
+	}
+	:is([id="stream-context-sidechain-parameters"], .column__7072d, .categorySubGroup__9f327) .slider_a562c8 .grabber_a562c8 {
+		margin-top: -7px;
+	}
 	.sliderBar_ac7648.speaking_ac7648 {
 		background-color: rgb(105, 196, 154);
 	}
