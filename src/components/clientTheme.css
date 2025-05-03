@@ -9,6 +9,7 @@
     --button-secondary-background: var(--background-secondary);
     --background-mod-subtle: var(--background-accent);
     --channels-default: var(--text-muted);
+    --bg-overlay-selected: var(--background-accent);
 }
 .visual-refresh {
     .section__00943 {
