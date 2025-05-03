@@ -8,6 +8,7 @@
     --background-floating: var(--background-secondary-alt);
     --button-secondary-background: var(--background-secondary);
     --background-mod-subtle: var(--background-accent);
+    --channels-default: var(--text-muted);
 }
 .visual-refresh {
     .section__00943 {
