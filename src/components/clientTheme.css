@@ -1,10 +1,10 @@
 /* for if you use the vencord ClientTheme plugin */
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars),.sidebarRegion__23e6b) {
-    --background-primary: var(--background-primary);
-    --background-secondary: unset;
-    --background-secondary-alt: unset;
-    --background-tertiary: unset;
-    --background-accent: unset;
+    --background-primary: var(--neutral-64);
+    --background-secondary: var(--neutral-69);
+    --background-secondary-alt: var(--neutral-79);
+    --background-tertiary: var(--neutral-73);
+    --background-accent: var(--neutral-59);
     --background-floating: var(--background-secondary-alt);
     --button-secondary-background: var(--background-secondary);
     --background-mod-subtle: var(--background-accent);
@@ -20,8 +20,8 @@
 	}
 }
 body {
-    --text-muted: unset;
-    --brand-500: unset;
+    --text-muted: var(--neutral-22);
+    --brand-500: var(--blurple-49);
 }
 .theme-dark .closeButton_c2b141 {
     color: var(--interactive-normal) !important;
