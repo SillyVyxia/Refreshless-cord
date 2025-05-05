@@ -10,7 +10,7 @@
     --background-mod-subtle: var(--background-accent);
     --channels-default: var(--text-muted);
     --bg-overlay-selected: var(--background-accent);
-    --channeltextarea-background: var(--background-accent)
+    --channeltextarea-background: var(--background-accent);
     --scrollbar-auto-scrollbar-color-thumb: var(--neutral-38);
     --scrollbar-auto-scrollbar-color-track: var(--neutral-74);
     --scrollbar-auto-thumb: var(--neutral-36);
