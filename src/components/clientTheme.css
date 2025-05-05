@@ -26,6 +26,9 @@
     .outer_bf1984.interactive_bf1984:hover {
 		background-color: var(--background-secondary-alt);
 	}
+    .outer_bf1984.interactive_bf1984:active {
+		background-color: var(--background-secondary-alt);
+	}
 }
 body {
     --text-muted: var(--neutral-22);
