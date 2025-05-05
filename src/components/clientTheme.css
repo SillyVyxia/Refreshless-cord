@@ -10,6 +10,12 @@
     --background-mod-subtle: var(--background-accent);
     --channels-default: var(--text-muted);
     --bg-overlay-selected: var(--background-accent);
+    --channeltextarea-background: var(--background-accent)
+    --scrollbar-auto-scrollbar-color-thumb: var(--neutral-38);
+    --scrollbar-auto-scrollbar-color-track: var(--neutral-74);
+    --scrollbar-auto-thumb: var(--neutral-36);
+    --scrollbar-auto-track: var(--primary-630);
+    --scrollbar-thin-thumb: var(--neutral-38);
 }
 .visual-refresh {
     .section__00943 {
