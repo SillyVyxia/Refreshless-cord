@@ -6,9 +6,9 @@
     --background-tertiary: var(--neutral-73);
     --background-accent: var(--neutral-59);
     --background-floating: var(--background-secondary-alt);
-    --button-secondary-background: var(--background-secondary);
-	--button-secondary-background-hover: var(--background-secondary-alt);
-	--button-secondary-background-active: var(--background-secondary-alt);
+    --button-secondary-background: var(--background-accent);
+	--button-secondary-background-hover: var(--neutral-36);
+	--button-secondary-background-active: var(--neutral-38);
     --background-mod-subtle: var(--background-accent);
     --channels-default: var(--text-muted);
     --bg-overlay-selected: var(--background-accent);
