@@ -18,8 +18,6 @@
     --scrollbar-auto-thumb: var(--background-accent);
     --scrollbar-auto-track: var(--primary-630);
     --scrollbar-thin-thumb: var(--neutral-38);
-    --interactive-normal: var(--icon-tertiary);
-    --interactive-hover: var(--neutral-36);
 }
 .visual-refresh {
     .section__00943 {
