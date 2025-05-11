@@ -19,6 +19,8 @@
     --scrollbar-auto-track: var(--primary-630);
     --scrollbar-thin-thumb: var(--neutral-38);
     --interactive-muted: var(--neutral-50);
+    --background-modifier-hover: var(--neutral-60);
+    --background-modifier-selected: var(--neutral-50);
 }
 .visual-refresh {
     .section__00943 {
