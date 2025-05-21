@@ -166,10 +166,6 @@
 	background-color: var(--brand-experiment-40a) !important;
 }*/
 
-.mentionButton__841c8 {
-	--text-link: var(--brand-experiment);
-}
-
 /** Add Friend Chip*/
 .addFriend__133bf.selected_b3f026 {
 	color: var(--green) !important;
