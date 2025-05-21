@@ -1630,24 +1630,20 @@ html.platform-osx .title_c38106 {
 	y: -2px;
 	mask: none !important;
 }
-
-.bar_c38106 .trailing_c38106 .recentsIcon_c99c29:nth-last-child(3) + a {
-	display: none;
-}
 html .bar_c38106 {
 	top: 0;
 	right: 0;
 	z-index: 102;
 }
 .inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f {
-	right: 31px;
+	right: 70px;
 }
 .winButtons_c38106 {
 	position: absolute;
 	gap: unset;
 	justify-content: center;
 	bottom: 35px;
-	left: -51px;
+	left: -12px;
 	z-index: 3001;
 	-webkit-app-region: no-drag !important;
 	.winButton_c38106 {
