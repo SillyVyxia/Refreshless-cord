@@ -1684,8 +1684,8 @@ html .bar_c38106 {
 		height: 2px;
 		margin-top: -11px;
 	}
-	.wrapper__48112 {
-		.expandedFolderBackground__48112 {
+	.folderGroup__48112 {
+		.folderGroupBackground__48112 {
 			left: 11px;
 			width: 48px;
 			bottom: 4px;
@@ -1693,12 +1693,12 @@ html .bar_c38106 {
 			background: var(--background-modifier-accent);
 			border: none;
 		}
-		.folder__48112 {
+		.hiddenVisually__27f77 {
 			margin-left: -5px;
 			margin-top: -4px;
 		}
-		.folderIconWrapper__48112,
-		.folder__48112 {
+		.folderPreviewWrapper__48112,
+		.hiddenVisually__27f77 {
 			width: 48px;
 			height: 48px;
 			overflow: hidden;
@@ -1718,7 +1718,7 @@ html .bar_c38106 {
 				height: 24px;
 			}
 		}
-		.closedFolderIconWrapper__48112 .guildIcon__48112 {
+		.folderPreview__48112 .folderPreviewGuildIcon__48112 {
 			border-radius: 32px !important;
 		}
 		gap: 8px !important;
