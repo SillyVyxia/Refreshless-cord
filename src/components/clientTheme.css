@@ -10,7 +10,6 @@
     --button-secondary-background-hover: var(--neutral-36);
     --button-secondary-background-active: var(--neutral-38);
     --background-mod-subtle: var(--background-accent);
-    --channels-default: var(--text-muted);
     --bg-overlay-selected: var(--background-accent);
     --channeltextarea-background: var(--background-accent);
     --scrollbar-auto-scrollbar-color-thumb: var(--neutral-38);
@@ -21,7 +20,7 @@
     --interactive-muted: var(--neutral-50);
     --interactive-normal: var(--icon-tertiary);
     --header-secondary: var(--interactive-normal);
-    --channels-default: var(--neutral-30);
+    --channels-default: var(--neutral-27) !important;
     --background-modifier-hover: var(--neutral-60);
     --background-modifier-selected: var(--neutral-50);
 }
