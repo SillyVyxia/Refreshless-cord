@@ -1,5 +1,5 @@
 /* for if you use the vencord ClientTheme plugin */
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars),.sidebarRegion__23e6b) {
+.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars))) {
     --background-primary: var(--neutral-64);
     --background-secondary: var(--neutral-69);
     --background-secondary-alt: var(--neutral-79);
