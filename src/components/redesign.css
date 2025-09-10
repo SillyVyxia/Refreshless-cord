@@ -20,6 +20,13 @@
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
 
+.align-chat-input .rtcConnectionQualityFine__06d62 .largePing__06d62 { /* you are way too big and your not supposed to have a background */
+    padding: 0px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
 /* remove the title bar on web & linux */
 .platform-web,
 .platform-linux {
