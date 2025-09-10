@@ -93,6 +93,9 @@ html.platform-osx .title_c38106 {
 }
 
 .visual-refresh {
+	.title_bb0d86 {
+		display: none;
+	}
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
 		background-color: var(--background-primary);
@@ -933,6 +936,7 @@ html.platform-osx .title_c38106 {
 		}
 		.channelTextArea__74017 {
 			border: none;
+			padding-bottom: 10px;
 		}
 		.buttons__74017 {
 			margin-right: -6px !important;
@@ -980,9 +984,10 @@ html.platform-osx .title_c38106 {
 		.slateTextArea_ec4baf {
 			margin-left: unset;
 		}
-		.attachButton__0923f {
-			height: 40px;
+		.attachWrapper__0923f {
 			padding: 10px 16px;
+		}
+		.attachButton__0923f {
 			margin-right: 0px;
 		}
 		.attachButtonInner__0923f {
