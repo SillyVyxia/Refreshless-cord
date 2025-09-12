@@ -998,10 +998,17 @@ html.platform-osx .title_c38106 {
 			margin-right: 0px;
 		}
 		.attachButtonInner__0923f {
+			transition: unset;
 			padding: 0px;
 			svg {
 				width: 24px;
 				height: 24px;
+				path {
+					d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z")
+				}
+			}
+			&:hover {
+				background: unset;
 			}
 		}
 	}
