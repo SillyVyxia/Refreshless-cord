@@ -1037,7 +1037,7 @@ html.platform-osx .title_c38106 {
 		resize: none;
 		align-items: center;
 		color: var(--text-normal);
-    	top: 41px;
+    	top: 41px !important;
 	}
 	.chatGradientBase__36d07 {
 		display: none;
