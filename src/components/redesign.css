@@ -1037,6 +1037,10 @@ html.platform-osx .title_c38106 {
 		resize: none;
 		align-items: center;
 		color: var(--text-normal);
+    	top: 41px;
+	}
+	.chatGradientBase__36d07 {
+		display: none;
 	}
 
 	/* jump to present bar */
