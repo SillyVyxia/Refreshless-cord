@@ -2,7 +2,7 @@
   * @name Refreshless-Cord
   * @version 1.0
   * @author @milbit, Forked By @sillyvyxia
-  * @source https://github.com/milbits/oldcord
+  * @source https://github.com/SillyVyxia/Refreshless-cord
   * @description Restores discord's pre-2025 refresh UI
 */
 @import url("https://raw.githubusercontent.com/SillyVyxia/Refreshless-cord/main/src/main.css");
@@ -14,7 +14,3 @@
   remove the /* if you wanna enable any one of the things up there
   only enable clientTheme.css if you use the vencord ClientTheme Plugin 
 */
-:root {
-	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
-	--reaction-animation: 0;
-}
