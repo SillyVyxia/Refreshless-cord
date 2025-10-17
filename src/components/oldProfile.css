@@ -39,7 +39,7 @@
         }
     }
 
-    .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_b3f026:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
+    .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_aa8da2:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
         .profile__9c3be {
 
             .markup__75297,
@@ -56,7 +56,7 @@
             pointer-events: all !important;
         }
 
-        .top_b3f026::before {
+        .top_aa8da2::before {
             color: var(--text-secondary);
             border-bottom: none !important;
         }
@@ -126,7 +126,7 @@
         padding-top: var(--space-xl);
     }
 
-    .top_b3f026::before {
+    .top_aa8da2::before {
         content: "User Info";
         color: var(--text-primary);
         border-bottom: 2px solid var(--text-primary) !important;
