@@ -31,7 +31,7 @@
         }
     }
 
-    .selected_b3f026 {
+    .selected_aa8da2 {
         color: var(--text-secondary) !important;
 
         &::after {
@@ -61,7 +61,7 @@
             border-bottom: none !important;
         }
 
-        .selected_b3f026 {
+        .selected_aa8da2 {
             color: var(--selected-tab-item-color) !important;
 
             &::after {
@@ -133,14 +133,14 @@
         font-size: 16px;
         font-weight: 500;
         --tab-item-color: var(--text-primary);
-        margin: 0px var(--space-xl) 1px 0px;
+        margin: 1px var(--space-xl) 1px 0px;
+        cursor: pointer;
     }
 
     div.top_aa8da2 .item_aa8da2 {
         font-size: 16px;
         font-weight: 500;
-        margin: 2px var(--space-xl) 1px 0px;
-        margin-right: 0px !important;
+        margin: 2px var(--space-xl) 1px 0px !important;
     }
 
     .empty_e766f2 {
