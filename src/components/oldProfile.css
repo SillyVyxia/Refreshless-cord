@@ -135,12 +135,11 @@
         --tab-item-color: var(--text-primary);
         margin: 2px var(--space-xl) 1px 0px;
     }
-    
-    .top_aa8da2 .item_aa8da2 {
-        font-size: 16px !important;
-        font-weight: 500 !important;
-        border-bottom: 2px solid var(--text-primary) !important;
-        margin: 2px var(--space-xl) 1px 0px !important;
+
+    div.top_aa8da2 .item_aa8da2 {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 2px var(--space-xl) 1px 0px;
     }
 
     .empty_e766f2 {
