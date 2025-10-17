@@ -27,6 +27,10 @@
     border: none;
 }
 
+div.micButtonParent__37e49 button.buttonChevron__37e49 {
+	display: none;
+}
+
 /* remove the title bar on web & linux */
 .platform-web,
 .platform-linux {
