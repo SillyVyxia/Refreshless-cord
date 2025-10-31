@@ -74,7 +74,7 @@ div.micButtonParent__37e49 button.buttonChevron__37e49 {
 	&:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
 		top: 94px !important;
 	}
-	&:has(.notice__6e2b9, .bd-notice) :is(.sidebarList_c48ade, .page_c48ade) {
+	&:has(.notice__6e2b9, .bd-notice) :is(.sidebarList__5e434, .page_c48ade) {
 		margin-top: 27px !important;	
 	}
 }
@@ -681,7 +681,7 @@ html.platform-osx .title_c38106 {
 		grid-area: guilds;
 		margin-bottom: 0;
 	}
-	.base_c48ade .sidebar_c48ade > .sidebarList_c48ade {
+	.base_c48ade .sidebar_c48ade > .sidebarList__5e434 {
 		grid-area: sidebar;
 		width: 240px;
 		--custom-app-panels-height: 0;
@@ -1435,7 +1435,7 @@ html.platform-osx .title_c38106 {
 			bottom: 73px;
 		}
 	}
-	.base_c48ade:has(.notice__6e2b9, .bd-notice) :is(.sidebarList_c48ade, .page_c48ade) {
+	.base_c48ade:has(.notice__6e2b9, .bd-notice) :is(.sidebarList__5e434, .page_c48ade) {
 		margin-top: 37px;	
 	}
 	.page_c48ade {
@@ -1610,7 +1610,7 @@ html.platform-osx .title_c38106 {
 	svg {
 		display: none;
 	}
-	.guildIcon__85643 {
+	.guildIcon_edbb22 {
 		display: none;
 	}
 }
