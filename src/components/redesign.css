@@ -115,7 +115,7 @@ html.platform-osx .title_c38106 {
 		border-top-left-radius: unset;
 	}
 
-	.panels_c48ade {
+	.panels__5e434 {
 		display: flex;
 		width: 241px;
 		flex-direction: column;
@@ -591,7 +591,7 @@ html.platform-osx .title_c38106 {
 		&:not(.lookOutlined__201d5, .card__39ec2 .button_fb7f94, .button_fb7f94){
 			border: none;
 		}
-		.panels_c48ade &{
+		.panels__5e434 &{
 			background: none
 		}
 	}
@@ -714,7 +714,7 @@ html.platform-osx .title_c38106 {
 		"guilds guildsFolderList panels";
 	}
 	/* user panel */
-	.base_c48ade .sidebar_c48ade > .panels_c48ade {
+	.base_c48ade .sidebar_c48ade > .panels__5e434 {
 		grid-area: panels;
 		position: static;
 		inset: auto;
