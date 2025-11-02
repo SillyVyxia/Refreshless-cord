@@ -1705,6 +1705,9 @@ html .bar_c38106 {
 	margin-bottom: 0 !important;
 }
 /* server list */
+.guilds__5e434 {
+	margin-bottom: 0px !important;
+}
 .base_c48ade .sidebar_c48ade > .guilds__5e434 {
 	width: 72px;
 	background: var(--background-tertiary);
@@ -1757,12 +1760,10 @@ html .bar_c38106 {
 		}
 		gap: 8px !important;
 	}
-	.listItem__650eb:has(.circleIcon__5bc7e) {
-		.circleIconButton__5bc7e {
-			border-radius: 50%;
-			width: 48px;
-			height: 48px;
-		}
+	.circleIconButton__5bc7e {
+		border-radius: 48px;
+		width: 48px;
+		height: 48px;
 	}
 	.guildsError_e8d03f {
 		width: 48px;
