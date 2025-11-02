@@ -61,7 +61,7 @@ div.micButtonParent__37e49 button.buttonChevron__37e49 {
 		"notice notice notice"
 		"guildsList channelsList page";
 	grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
-	.sidebar_c48ade > .guilds_c48ade {
+	.sidebar_c48ade > .guilds__5e434 {
 		margin-top: 32px;
 	}
 	.bar_c38106 .trailing_c38106 {
@@ -682,7 +682,7 @@ html.platform-osx .title_c38106 {
 		width: 310px !important;
 		border-radius: 0;
 	}
-	.base_c48ade .sidebar_c48ade > .guilds_c48ade {
+	.base_c48ade .sidebar_c48ade > .guilds__5e434 {
 		grid-area: guilds;
 		margin-bottom: 0;
 	}
@@ -1705,7 +1705,7 @@ html .bar_c38106 {
 	margin-bottom: 0 !important;
 }
 /* server list */
-.base_c48ade .sidebar_c48ade > .guilds_c48ade {
+.base_c48ade .sidebar_c48ade > .guilds__5e434 {
 	width: 72px;
 	background: var(--background-tertiary);
 	.scroller_ef3116 {
