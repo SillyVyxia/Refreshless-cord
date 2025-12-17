@@ -1,3 +1,4 @@
+/* for if you use the vencord ClientTheme plugin */
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
     --background-primary: var(--neutral-64);
     --background-secondary: var(--neutral-69);
@@ -22,4 +23,31 @@
     --channels-default: var(--text-muted) !important;
     --background-modifier-hover: var(--neutral-60);
     --background-modifier-selected: var(--neutral-50);
+}
+.visual-refresh {
+    .section__00943 {
+        background: var(--background-primary);
+    }
+    .outer_bf1984.interactive_bf1984:hover {
+		background-color: var(--background-secondary-alt);
+	}
+    .outer_bf1984.interactive_bf1984:active {
+		background-color: var(--background-secondary-alt);
+	}
+    :is(.sidebar__23e6b) .selected_b3f026.item_b3f026 {
+        --background-modifier-hover: var(--neutral-65);
+        --background-modifier-active: var(--neutral-80);
+        --background-modifier-selected: var(--neutral-60);
+        --background-modifier-accent: var(--neutral-59);
+    }
+}
+body {
+    --text-muted: var(--neutral-22);
+    --brand-500: var(--blurple-49);
+}
+.theme-dark .closeButton_c2b141 {
+    color: var(--interactive-normal) !important;
+}
+.keybind_c2b141 {
+    color: var(--interactive-normal) !important;
 }
