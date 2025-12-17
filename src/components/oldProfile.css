@@ -5,14 +5,14 @@
     max-height: 800px !important;
     min-height: 0px !important;
 
-    .inner_c0bea0 {
+    .c0bea05627c5dc35-inner {
         padding: 0px !important;
         gap: 0px !important;
         flex-direction: column !important;
         container-type: size;
     }
 
-    .profile__9c3be {
+    ._9c3bea41fd465666-profile {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -20,18 +20,18 @@
     }
 
     &.custom-theme-background {
-        .inner_c0bea0 {
+        .c0bea05627c5dc35-inner {
             padding: 4px !important;
             background: linear-gradient(100px(--profile-gradient-primary-color), 100px(--profile-gradient-secondary-color)) !important;
         }
 
-        .profile__9c3be {
+        ._9c3bea41fd465666-profile {
             width: calc(100% - 8px);
             height: calc(100% - 8px);
         }
     }
 
-    .selected_aa8da2 {
+    .item.aa8da23faa27393c-selected {
         color: var(--text-secondary) !important;
 
         &::after {
@@ -39,8 +39,8 @@
         }
     }
 
-    .inner_c0bea0:has(.tabBarItem__37bfc:focus, div.top_aa8da2:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
-        .profile__9c3be {
+    .c0bea05627c5dc35-inner:has(.tabBarItem__37bfc:focus, div.aa8da23faa27393c-top:focus, ._37bfcf3d457db7a9-tabListScroller:focus-within, ._37bfcf3d457db7a9-tabListScroller:focus) {
+        ._9c3bea41fd465666-profile {
 
             .markup__75297,
             .section_bf424d {
@@ -50,18 +50,18 @@
 
         }
 
-        .tabBarPanel__37bfc {
+        ._37bfcf3d457db7a9-tabListScroller {
             display: flex !important;
             opacity: 1;
             pointer-events: all !important;
         }
 
-        div.top_aa8da2::before {
+        div.aa8da23faa27393c-top::before {
             color: var(--text-secondary);
             border-bottom: none !important;
         }
 
-        .selected_aa8da2 {
+        .item.aa8da23faa27393c-selected {
             color: var(--selected-tab-item-color) !important;
 
             &::after {
@@ -70,14 +70,14 @@
         }
     }
 
-    .tabBarPanel__37bfc {
+    ._37bfcf3d457db7a9-tabListScroller {
         opacity: 0;
         z-index: 999;
         pointer-events: none !important;
         padding: 0px 26px;
     }
 
-    .container__37bfc {
+    ._37bfcf3d457db7a9-container {
         margin-top: 270px;
         padding: 18px 4px 26px;
     }
@@ -126,7 +126,7 @@
         padding-top: var(--space-xl);
     }
 
-    div.top_aa8da2::before {
+    div.aa8da23faa27393c-top::before {
         content: "User Info";
         color: var(--text-primary);
         border-bottom: 2px solid var(--text-primary) !important;
@@ -137,7 +137,7 @@
         cursor: pointer;
     }
 
-    div.top_aa8da2 .item_aa8da2 {
+    div.aa8da23faa27393c-top .item_aa8da2 {
         font-size: 16px;
         font-weight: 500;
         margin: 2px var(--space-xl) 1px 0px !important;
@@ -162,7 +162,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .connection__9bfb9 {
+    ._9bfb9a25604068f0-connection {
         border: 1px solid var(--border-subtle) !important;
         border-radius: var(--radius-sm);
         padding: var(--space-sm);
@@ -180,7 +180,7 @@
         padding-top: 3px;
     }
 
-    .connection__9bfb9:has(.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42) {
+    ._9bfb9a25604068f0-connection:has(.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42) {
         order: -1;
 
         .connectionInfo__9bfb9 {
