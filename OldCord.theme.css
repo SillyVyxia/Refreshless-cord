@@ -1,14 +1,14 @@
 /**
- * @name OldCord
- * @version 2.1
- * @author milbit, kinggamingyt
- * @source https://github.com/milbits/oldcord
- * @website https://github.com/milbits/oldcord
- * @description Restores discord's 2020 UI
+ * @name Refreshless-cord
+ * @version 1.0
+ * @author SillyVyxia, milbit, kinggamingyt
+ * @source https://github.com/SillyVyxia/Refreshless-cord
+ * @website https://github.com/SillyVyxia/Refreshless-cord
+ * @description Restores discord's pre-refresh UI
  */
 
 /* Everything in one */
-@import url("https://milbits.github.io/oldcord/src/main.css");
+@import url("https://sillyvyxia.github.io/Refreshless-cord/src/main.css");
 
 /* If you want to enable/disable each part (like disable profile theming), remove the above line and a [slash]* below. */
 
