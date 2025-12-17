@@ -18,7 +18,7 @@
     --scrollbar-auto-track: var(--primary-630);
     --scrollbar-thin-thumb: var(--neutral-38);
     --interactive-muted: var(--neutral-50);
-    --interactive-normal: var(--icon-tertiary);
+    --interactive-normal: var(--icon-muted);
     --header-secondary: var(--interactive-normal);
     --channels-default: var(--text-muted) !important;
     --background-modifier-hover: var(--neutral-60);
