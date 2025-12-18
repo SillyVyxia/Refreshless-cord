@@ -179,9 +179,6 @@ html:not(.custom-theme-background) .theme-light {
 :root {
 	--oldcord-tint: 210; /* light mode */
 	--oldcord-tint-intensity: 11.11;
-	--font-primary: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
-	--font-display: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif !important;
-	--font-headline: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
 	--blurple: var(--brand-experiment);
 	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
 	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
