@@ -20,6 +20,7 @@
     --interactive-muted: var(--neutral-50);
     --interactive-normal: var(--icon-muted);
     --header-secondary: var(--interactive-normal);
+	--text-muted: var(--icon-muted) !important;
     --channels-default: var(--text-muted) !important;
     --background-modifier-hover: var(--neutral-60);
     --background-modifier-selected: var(--neutral-50);
