@@ -24,6 +24,7 @@
     --channels-default: var(--text-muted) !important;
     --background-modifier-hover: var(--neutral-60);
     --background-modifier-selected: var(--neutral-50);
+	--chat-background-default: var(--background-accent);
 }
 .visual-refresh {
     .section__00943 {
