@@ -1243,7 +1243,7 @@ h2.b717a15017b82443-title,
 }
 
 /*forwarded message*/
-._122e465d2e663859-container ._122e465d2e663859-quote {
+/*._122e465d2e663859-container ._122e465d2e663859-quote {
 	display: none;
 }
 ._122e465d2e663859-container ._122e465d2e663859-content {
@@ -1259,7 +1259,7 @@ h2.b717a15017b82443-title,
 	font-weight: bold;
 	font-style: normal;
 	text-transform: uppercase;
-}
+}*/
 
 /* fix emoji picker sizing */
 .fc7141859aaa98b7-emojiItem {
