@@ -134,11 +134,10 @@
         content: "User Info";
         color: var(--text-primary);
         border-bottom: 2px solid var(--text-primary) !important;
-        font-size: 14px;
-        font-weight: 600;
-        padding-bottom: 13px;
+        font-size: 16px;
+        font-weight: 500;
         --tab-item-color: var(--text-primary);
-        margin: 0px var(--space-xl) 0px -25px;
+        margin: 2px var(--space-xl) 1px -25px;
         cursor: pointer;
     }
 
