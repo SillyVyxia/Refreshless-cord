@@ -31,7 +31,7 @@
         }
     }
 
-    .item.aa8da23faa27393c-selected {
+    .aa8da23faa27393c-selected {
         color: var(--text-secondary) !important;
 
         &::after {
@@ -61,7 +61,7 @@
             border-bottom: none !important;
         }
 
-        .item.aa8da23faa27393c-selected {
+        .aa8da23faa27393c-selected {
             color: var(--selected-tab-item-color) !important;
 
             &::after {
