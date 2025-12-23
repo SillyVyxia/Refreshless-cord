@@ -39,7 +39,7 @@
         }
     }
 
-    .c0bea05627c5dc35-inner:has(._37bfcf3d457db7a9-tabBarItem:focus, div.aa8da23faa27393c-top:focus, ._37bfcf3d457db7a9-tabListScroller:focus-within, ._37bfcf3d457db7a9-tabListScroller:focus) {
+    .c0bea05627c5dc35-inner:has(._37bfcf3d457db7a9-tabBarItem:focus, .aa8da23faa27393c-top:focus, ._37bfcf3d457db7a9-tabBarPanel:focus-within, ._37bfcf3d457db7a9-tabBarPanel:focus) {
         ._9c3bea41fd465666-profile {
 
             ._752971923a1e6683-markup,
@@ -50,13 +50,13 @@
 
         }
 
-        ._37bfcf3d457db7a9-tabListScroller {
+        ._37bfcf3d457db7a9-tabBarPanel {
             display: flex !important;
             opacity: 1;
             pointer-events: all !important;
         }
 
-        div.aa8da23faa27393c-top::before {
+        .aa8da23faa27393c-top::before {
             color: var(--text-secondary);
             border-bottom: none !important;
         }
@@ -70,7 +70,7 @@
         }
     }
 
-    ._37bfcf3d457db7a9-tabListScroller {
+    ._37bfcf3d457db7a9-tabBarPanel {
         opacity: 0;
         z-index: 999;
         pointer-events: none !important;
@@ -80,6 +80,10 @@
     ._37bfcf3d457db7a9-container {
         margin-top: 270px;
         padding: 18px 4px 26px;
+
+        .aa8da23faa27393c-top {
+            padding-left: 26px;
+        }
     }
 
     ._68edb95846a37624-banner {
@@ -112,7 +116,7 @@
     ._9c3bea41fd465666-profileButtons {
         position: fixed;
         right: 26px;
-        top: 170px !important;
+        top: 230px !important;
     }
 
     ._63ed30c16c7151f2-container {
@@ -126,24 +130,19 @@
         padding-top: var(--space-xl);
     }
 
-    div.aa8da23faa27393c-top::before {
+    .aa8da23faa27393c-top::before {
         content: "User Info";
         color: var(--text-primary);
         border-bottom: 2px solid var(--text-primary) !important;
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 13px;
         --tab-item-color: var(--text-primary);
-        margin: 1px var(--space-xl) 1px 0px;
+        margin: 0px var(--space-xl) 0px -25px;
         cursor: pointer;
     }
 
-    div.aa8da23faa27393c-top .aa8da23faa27393c-item {
-        font-size: 16px;
-        font-weight: 500;
-        margin: 2px var(--space-xl) 1px 0px !important;
-    }
-
-    .empty_e766f2 {
+    .e766f2028d7616c7-empty {
         padding: 0px !important;
         justify-content: center;
     }
@@ -180,7 +179,7 @@
         padding-top: 3px;
     }
 
-    ._9bfb9a25604068f0-connection:has(._9bfb9a25604068f0-metadata>.connectedAccountVanityMetadata_fffe42) {
+    ._9bfb9a25604068f0-connection:has(._9bfb9a25604068f0-metadata>.fffe429fef648986-connectedAccountVanityMetadata) {
         order: -1;
 
         ._9bfb9a25604068f0-connectionInfo {
