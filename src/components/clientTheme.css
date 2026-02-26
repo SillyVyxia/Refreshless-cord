@@ -1,30 +1,31 @@
 /* for if you use the vencord ClientTheme plugin */
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
-    --background-primary: var(--neutral-64);
-    --background-secondary: var(--neutral-69);
-    --background-secondary-alt: var(--neutral-79);
-    --background-tertiary: var(--neutral-73);
-    --background-accent: var(--neutral-59);
-    --background-floating: var(--background-secondary-alt);
-    --button-secondary-background: var(--background-accent);
-    --button-secondary-background-hover: var(--neutral-36);
-    --button-secondary-background-active: var(--neutral-38);
-    --background-mod-subtle: var(--background-accent);
-    --bg-overlay-selected: var(--background-accent);
-    --channeltextarea-background: var(--background-accent);
-    --scrollbar-auto-scrollbar-color-thumb: var(--neutral-38);
-    --scrollbar-auto-scrollbar-color-track: var(--neutral-74);
-    --scrollbar-auto-thumb: var(--background-accent);
-    --scrollbar-auto-track: var(--primary-630);
-    --scrollbar-thin-thumb: var(--neutral-38);
-    --interactive-muted: var(--neutral-50);
-    --interactive-normal: var(--icon-muted);
-    --header-secondary: var(--interactive-normal);
+    --background-primary: var(--neutral-64) !important;
+    --background-secondary: var(--neutral-69) !important;
+    --background-secondary-alt: var(--neutral-79) !important;
+    --background-tertiary: var(--neutral-73) !important;
+	--background-gradient-lowest: var(--background-tertiary) !important;
+    --background-accent: var(--neutral-59) !important;
+    --background-floating: var(--background-secondary-alt) !important;
+    --button-secondary-background: var(--background-accent) !important;
+    --button-secondary-background-hover: var(--neutral-36) !important;
+    --button-secondary-background-active: var(--neutral-38) !important;
+    --background-mod-subtle: var(--background-accent) !important;
+    --bg-overlay-selected: var(--background-accent !important);
+    --channeltextarea-background: var(--background-accent) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--neutral-38) !important;
+    --scrollbar-auto-scrollbar-color-track: var(--neutral-74) !important;
+    --scrollbar-auto-thumb: var(--background-accent) !important;
+    --scrollbar-auto-track: var(--primary-630) !important;
+    --scrollbar-thin-thumb: var(--neutral-38) !important;
+    --interactive-muted: var(--neutral-50) !important;
+    --interactive-normal: var(--icon-muted) !important;
+    --header-secondary: var(--interactive-normal) !important;
 	--text-muted: var(--icon-muted) !important;
     --channels-default: var(--text-muted) !important;
-    --background-modifier-hover: var(--neutral-60);
-    --background-modifier-selected: var(--neutral-50);
-	--chat-background-default: var(--background-accent);
+    --background-modifier-hover: var(--neutral-60) !important;
+    --background-modifier-selected: var(--neutral-50) !important;
+	--chat-background-default: var(--background-accent) !important;
 }
 .visual-refresh {
     .section__00943 {
