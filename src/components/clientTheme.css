@@ -27,6 +27,18 @@
     --background-modifier-selected: var(--neutral-50) !important;
 	--chat-background-default: var(--background-accent) !important;
 }
+html:not(.custom-theme-background).theme-dark:not(.theme-darker, .theme-midnight), html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnight) {
+    --primary-700: var(--background-tertiary) !important;
+    --primary-630: var(--background-secondary) !important;
+    --interactive-text-normal: var(--text-muted) !important;
+    --background-mod-muted: var(--background-tertiary) !important;
+    --background-mod-strong: color-mix(in hsl, var(--background-primary) 100%, white 8%) !important;
+    --interactive-background-selected: var(--background-mod-strong) !important;
+    --interactive-background-hover: color-mix(in hsl, var(--background-primary) 100%, white 2%) !important;
+}
+.container__37e49 {
+    background: var(--background-secondary-alt);
+}
 .visual-refresh {
     .section__00943 {
         background: var(--background-primary);
