@@ -30,11 +30,13 @@
 html:not(.custom-theme-background).theme-dark:not(.theme-darker, .theme-midnight), html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnight) {
     --primary-700: var(--background-tertiary) !important;
     --primary-630: var(--background-secondary) !important;
+    --primary-660: color-mix(in hsl, var(--background-secondary-alt), rgba(255, 255, 255, 7%));
     --interactive-text-normal: var(--text-muted) !important;
-    --background-mod-muted: var(--background-tertiary) !important;
-    --background-mod-strong: color-mix(in hsl, var(--background-primary) 100%, white 8%) !important;
+    --background-mod-muted: color-mix(in hsl, var(--background-accent), rgba(255, 255, 255, 4%)) !important;
+    --background-mod-normal: color-mix(in hsl, var(--background-accent), rgba(255, 255, 255, 16%)) !important;
+    --background-mod-strong: color-mix(in hsl, var(--background-accent), rgba(255, 255, 255, 20%)) !important;
     --interactive-background-selected: var(--background-mod-strong) !important;
-    --interactive-background-hover: color-mix(in hsl, var(--background-primary) 100%, white 2%) !important;
+    --interactive-background-hover: color-mix(in hsl, var(--background-accent) , rgba(255, 255, 255, 2%)) !important;
 }
 .container__37e49 {
     background: var(--background-secondary-alt);
