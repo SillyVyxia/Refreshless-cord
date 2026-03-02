@@ -4,3 +4,6 @@
     --font-headline: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-code: "gg mono","Source Code Pro",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
 }
+.contentHeader_e9e3ed .icon-only_a22cb0:after {
+    color: color-mix(in hsl, var(--background-primary) 50%, white 100%) !important;
+}
