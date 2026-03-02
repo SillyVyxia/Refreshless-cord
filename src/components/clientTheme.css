@@ -36,6 +36,7 @@ html:not(.custom-theme-background).theme-dark:not(.theme-darker, .theme-midnight
     --background-mod-normal: color-mix(in hsl, var(--background-accent), rgba(255, 255, 255, 16%)) !important;
     --background-mod-strong: color-mix(in hsl, var(--background-accent), rgba(255, 255, 255, 20%)) !important;
     --interactive-background-selected: var(--background-mod-strong) !important;
+    --interactive-background-active: var(--background-mod-normal) !important;
     --interactive-background-hover: color-mix(in hsl, var(--background-accent) , rgba(255, 255, 255, 2%)) !important;
 }
 .container__37e49 {
