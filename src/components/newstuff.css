@@ -10,3 +10,6 @@
 .contentHeader_e9e3ed .icon-only_a22cb0:after {
     background-color: var(--background-primary);
 }
+.fixedContent__409aa:after {
+    display: none;
+}
