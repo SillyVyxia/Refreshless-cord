@@ -5,6 +5,10 @@
     max-height: 800px !important;
     min-height: 0px !important;
 
+    .layoutContainer__9c3be {
+        max-width: 600px !important
+    }
+    
     .inner_c0bea0 {
         padding: 0px !important;
         gap: 0px !important;
