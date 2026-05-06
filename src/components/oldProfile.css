@@ -1,13 +1,16 @@
 /* thank you blade0 (@the.rabbit.disabler) for the css snippet i modified */
+:root {
+    --max-profile-width: 600px;
+    --max-profile-height 780px;
+}
+.layoutContainer__9c3be {
+    max-width: var(--max-profile-width) !important;
+}
 .user-profile-modal-v2 {
-    max-width: 600px !important;
+    max-width: var(--max-profile-width) !important;
     min-width: 0px !important;
-    max-height: 800px !important;
+    max-height: var(--max-profile-height) !important;
     min-height: 0px !important;
-
-    .layoutContainer__9c3be {
-        max-width: 600px !important
-    }
     
     .inner_c0bea0 {
         padding: 0px !important;
@@ -94,6 +97,8 @@
     .banner__68edb {
         height: 100% !important;
         border-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .profileHeader__9c3be {
