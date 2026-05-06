@@ -1,7 +1,7 @@
 /* thank you blade0 (@the.rabbit.disabler) for the css snippet i modified */
 :root {
     --max-profile-width: 600px;
-    --max-profile-height 780px;
+    --max-profile-height: 780px;
 }
 .layoutContainer__9c3be {
     max-width: var(--max-profile-width) !important;
