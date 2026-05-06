@@ -62,6 +62,7 @@
             display: flex !important;
             opacity: 1;
             pointer-events: all !important;
+            background: var(--background-secondary);
         }
 
         .top_aa8da2::before {
